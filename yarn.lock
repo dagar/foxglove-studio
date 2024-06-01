@@ -1556,12 +1556,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.19.4, @babel/runtime@npm:^7.22.15, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.23.8, @babel/runtime@npm:^7.23.9, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.19.4, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.23.8, @babel/runtime@npm:^7.23.9, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.23.9
   resolution: "@babel/runtime@npm:7.23.9"
   dependencies:
     regenerator-runtime: ^0.14.0
   checksum: 6bbebe8d27c0c2dd275d1ac197fc1a6c00e18dab68cc7aaff0adc3195b45862bae9c4cc58975629004b0213955b2ed91e99eccb3d9b39cabea246c657323d667
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.24.6":
+  version: 7.24.6
+  resolution: "@babel/runtime@npm:7.24.6"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: 44d95ca743898fed31b4cefef31de6fd3cf7906e94493368e9d6538289cc52c6c46185205d9c01d38466a5b3f673550f80892d30b1ed02a2c13e704863a8cc48
   languageName: node
   linkType: hard
 
@@ -2610,7 +2619,7 @@ __metadata:
     leaflet: 1.9.4
     leaflet-ellipse: 0.9.1
     lodash-es: 4.17.21
-    mathjs: 11.11.1
+    mathjs: 13.0.0
     memoize-weak: 1.0.2
     meshoptimizer: 0.19.0
     moize: 6.1.6
@@ -8002,7 +8011,7 @@ __metadata:
     "@types/react-dom": 18.2.7
     clean-webpack-plugin: 4.0.0
     html-webpack-plugin: 5.6.0
-    mathjs: 11.11.1
+    mathjs: 13.0.0
     react: 18.2.0
     react-dom: 18.2.0
     webpack: 5.90.1
@@ -11591,10 +11600,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"fraction.js@npm:4.3.4":
-  version: 4.3.4
-  resolution: "fraction.js@npm:4.3.4"
-  checksum: 26fdecf114e3b693c760d3b2d5447f8ba9e815991ca7c7cdb930156780793b87f10936979a890b389676d960d7cd026273da9a44a6e20c12e3c4fd282a026ed3
+"fraction.js@npm:^4.3.7":
+  version: 4.3.7
+  resolution: "fraction.js@npm:4.3.7"
+  checksum: e1553ae3f08e3ba0e8c06e43a3ab20b319966dfb7ddb96fd9b5d0ee11a66571af7f993229c88ebbb0d4a816eb813a24ed48207b140d442a8f76f33763b8d1f3f
   languageName: node
   linkType: hard
 
@@ -14583,22 +14592,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mathjs@npm:11.11.1":
-  version: 11.11.1
-  resolution: "mathjs@npm:11.11.1"
+"mathjs@npm:13.0.0":
+  version: 13.0.0
+  resolution: "mathjs@npm:13.0.0"
   dependencies:
-    "@babel/runtime": ^7.22.15
+    "@babel/runtime": ^7.24.6
     complex.js: ^2.1.1
     decimal.js: ^10.4.3
     escape-latex: ^1.2.0
-    fraction.js: 4.3.4
+    fraction.js: ^4.3.7
     javascript-natural-sort: ^0.7.1
     seedrandom: ^3.0.5
     tiny-emitter: ^2.1.0
     typed-function: ^4.1.1
   bin:
     mathjs: bin/cli.js
-  checksum: b68b445f96a35d50adf3521b8dad2baa0112142d16cd839fccc6e7370476567e109bce37cca6feba54061fc4b22eae0869bb1541a7b53d8d9ceac09e451791d5
+  checksum: 19c65e1c54864c286c880be2dca8e7edcca53eac47897937172d03dae5c2d671b05fe2d75b5a0b9ba31abfd2d4ee980e3819aca013f7342a439f1948bf058c2c
   languageName: node
   linkType: hard
 
