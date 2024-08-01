@@ -2653,7 +2653,7 @@ __metadata:
     ts-essentials: 9.4.1
     ts-key-enum: 2.0.12
     ts-loader: 9.5.1
-    tss-react: 4.9.3
+    tss-react: 4.9.12
     typescript: 5.3.3
     use-debounce: 10.0.0
     use-immer: 0.9.0
@@ -2682,7 +2682,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-i18next: 14.0.5
-    tss-react: 4.9.3
+    tss-react: 4.9.12
     webpack: 5.90.1
     webpack-dev-server: 4.15.1
   languageName: unknown
@@ -19558,9 +19558,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tss-react@npm:4.9.3":
-  version: 4.9.3
-  resolution: "tss-react@npm:4.9.3"
+"tss-react@npm:4.9.12":
+  version: 4.9.12
+  resolution: "tss-react@npm:4.9.12"
   dependencies:
     "@emotion/cache": "*"
     "@emotion/serialize": "*"
@@ -19575,7 +19575,7 @@ __metadata:
       optional: true
     "@mui/material":
       optional: true
-  checksum: 40445f156d4d74bae18bf697dbe4e9e7a46c7056976c6312e95dc3949d637eb5e1b1dd1a4ca244c53114d9bf525a756767b33b7d59b210730c52c0e5a8524f31
+  checksum: b1bec7c6d80b93d325ceca040ff5629b8a898b9f86a6d3260f2614943b64873afacd1f56d65a7850090a01869ea4fdac045da77ec96b80fbf157d475bcbd7187
   languageName: node
   linkType: hard
 
