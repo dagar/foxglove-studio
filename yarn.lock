@@ -1565,6 +1565,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.24.8":
+  version: 7.25.0
+  resolution: "@babel/runtime@npm:7.25.0"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: 4a2a374a58eb01aaa65c5762606e90b3a1f448e0c637d42278b6cc0b42a9f5399b5f381ba9f237ee087da2860d14dd2d1de7bddcbe18be6a3cafba97e44bed64
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.22.15, @babel/template@npm:^7.23.9, @babel/template@npm:^7.3.3, @babel/template@npm:^7.4.4":
   version: 7.23.9
   resolution: "@babel/template@npm:7.23.9"
@@ -2629,7 +2638,7 @@ __metadata:
     react-dnd-html5-backend: 16.0.1
     react-dom: 18.2.0
     react-hover-observer: 2.1.1
-    react-i18next: 14.0.5
+    react-i18next: 15.0.0
     react-json-tree: "patch:react-json-tree@npm:0.15.1#../../patches/react-json-tree.patch"
     react-markdown: 8.0.7
     react-mosaic-component: 6.1.0
@@ -2681,7 +2690,7 @@ __metadata:
     html-webpack-plugin: 5.6.0
     react: 18.2.0
     react-dom: 18.2.0
-    react-i18next: 14.0.5
+    react-i18next: 15.0.0
     tss-react: 4.9.3
     webpack: 5.90.1
     webpack-dev-server: 4.15.1
@@ -17067,11 +17076,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:14.0.5":
-  version: 14.0.5
-  resolution: "react-i18next@npm:14.0.5"
+"react-i18next@npm:15.0.0":
+  version: 15.0.0
+  resolution: "react-i18next@npm:15.0.0"
   dependencies:
-    "@babel/runtime": ^7.23.9
+    "@babel/runtime": ^7.24.8
     html-parse-stringify: ^3.0.1
   peerDependencies:
     i18next: ">= 23.2.3"
@@ -17081,7 +17090,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 54fe5ffd887d633852ea7e82e98b6ef057facf45dec512469dd0e43ae64d9450d2bafe7c85c87fd650cf6dad1bf81727a89fba23af0508b7a806153d459fc5cc
+  checksum: 6fb904a1ff353f90aadeed6e13e00d20d2c58efa7ba31713ca9a76e7b0fddb6819cff6cca38473e9033f26d9ab7dad1fbefeef391459e590f322b6461a053ff1
   languageName: node
   linkType: hard
 
