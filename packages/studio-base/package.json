@@ -52,7 +52,7 @@
     "@mui/material": "5.15.6",
     "@popperjs/core": "^2.11.8",
     "@protobufjs/base64": "1.1.2",
-    "@storybook/addon-actions": "7.6.15",
+    "@storybook/addon-actions": "9.0.3",
     "@storybook/jest": "0.2.3",
     "@storybook/react": "7.6.15",
     "@storybook/testing-library": "0.2.2",
