@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@foxglove/tsconfig": "2.0.0",
-    "@testing-library/react": "14.2.1",
+    "@testing-library/react": "16.3.2",
     "@types/foxglove__web": "workspace:*",
     "@types/lodash-es": "^4",
     "typescript": "5.3.3"
