@@ -12,7 +12,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/core@npm:1.10.1, @actions/core@npm:^1.2.6":
+"@actions/core@npm:1.10.1":
   version: 1.10.1
   resolution: "@actions/core@npm:1.10.1"
   dependencies:
@@ -22,12 +22,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/exec@npm:1.1.1, @actions/exec@npm:^1.0.0":
+"@actions/core@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "@actions/core@npm:3.0.1"
+  dependencies:
+    "@actions/exec": ^3.0.0
+    "@actions/http-client": ^4.0.0
+  checksum: 4f29321d8629c220b29486ea0d6bc320e968b9bd5b4346a86450d090123a1f83910c2aa3b05efb0c0fbcf7169a51e9573d7f4e318281c97d5e7859d1699a23f0
+  languageName: node
+  linkType: hard
+
+"@actions/exec@npm:1.1.1":
   version: 1.1.1
   resolution: "@actions/exec@npm:1.1.1"
   dependencies:
     "@actions/io": ^1.0.1
   checksum: d976e66dd51ab03d76a143da8e1406daa1bcdee06046168e6e0bec681c87a12999eefaad7a81cb81f28e4190610f55a58b8458ae4b82cbaaba13200490f4e8c2
+  languageName: node
+  linkType: hard
+
+"@actions/exec@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@actions/exec@npm:3.0.0"
+  dependencies:
+    "@actions/io": ^3.0.2
+  checksum: 8a8c2d28088b0daf019c24abd2127e6694f7427f6f8b866cf7e9d1709dcdc3e15156f2f061977a814113c6f2f2368886f2a9cdf21631d2b9bf7ff22fc80e55e2
   languageName: node
   linkType: hard
 
@@ -40,24 +59,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/io@npm:^1.0.1, @actions/io@npm:^1.1.1":
+"@actions/http-client@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "@actions/http-client@npm:4.0.1"
+  dependencies:
+    tunnel: ^0.0.6
+    undici: ^6.23.0
+  checksum: 45da4bacfd50dbd18cb77171e789242d77739d744e394f1cd65c0e8cbfee0d3176a264239e475fcad889a60ea180d74cdd985cb3dd1d3f9627ff69846929facd
+  languageName: node
+  linkType: hard
+
+"@actions/io@npm:^1.0.1":
   version: 1.1.2
   resolution: "@actions/io@npm:1.1.2"
   checksum: 3c6583c4557abf6c95e9cfc9b6377045e65ba2c5dd4863f4feedd6be9daf4f6b60e588ab0151d5626b5f8320a37f05b8d44ab5c329b8c19f65be31b0616e1464
   languageName: node
   linkType: hard
 
-"@actions/tool-cache@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@actions/tool-cache@npm:2.0.1"
+"@actions/io@npm:^3.0.0, @actions/io@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "@actions/io@npm:3.0.2"
+  checksum: 69c1d58f2b37f4a2248e6d727be900af21e69051c614e161132c6aa459a09654ef84b13b7007f7cc87c7bbaf74e2c37a1add97c76791db64eb810d6a3f4ad96e
+  languageName: node
+  linkType: hard
+
+"@actions/tool-cache@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@actions/tool-cache@npm:4.0.0"
   dependencies:
-    "@actions/core": ^1.2.6
-    "@actions/exec": ^1.0.0
-    "@actions/http-client": ^2.0.1
-    "@actions/io": ^1.1.1
-    semver: ^6.1.0
-    uuid: ^3.3.2
-  checksum: 33f6393b9b163e4af2b9759e8d37cda4f018f10ddda3643355bb8a9f92d732e5bdff089cf8036b46d181e1ef2b3210b895b2f746fdf54487afe88f1d340aa9e1
+    "@actions/core": ^3.0.0
+    "@actions/exec": ^3.0.0
+    "@actions/http-client": ^4.0.0
+    "@actions/io": ^3.0.0
+    semver: ^7.7.3
+  checksum: 65e69093aa770a66d688f63cb8419e5b10893fc54ebf006016555bdd318aac47980b819f463cfc0853b25051038f27e347bfccf5e3b40a1f3b5d7adafdd408f0
   languageName: node
   linkType: hard
 
@@ -11535,7 +11570,7 @@ __metadata:
   dependencies:
     "@actions/core": 1.10.1
     "@actions/exec": 1.1.1
-    "@actions/tool-cache": 2.0.1
+    "@actions/tool-cache": 4.0.0
     "@babel/core": 7.23.9
     "@babel/plugin-proposal-explicit-resource-management": 7.23.9
     "@babel/preset-env": 7.23.9
@@ -18205,12 +18240,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^6.0.0, semver@npm:^6.1.0, semver@npm:^6.3.0, semver@npm:^6.3.1":
+"semver@npm:^6.0.0, semver@npm:^6.3.0, semver@npm:^6.3.1":
   version: 6.3.1
   resolution: "semver@npm:6.3.1"
   bin:
     semver: bin/semver.js
   checksum: ae47d06de28836adb9d3e25f22a92943477371292d9b665fb023fae278d345d508ca1958232af086d85e0155aee22e313e100971898bbb8d5d89b8b1d4054ca2
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.7.3":
+  version: 7.8.1
+  resolution: "semver@npm:7.8.1"
+  bin:
+    semver: bin/semver.js
+  checksum: c6486ac12dc85120fc1daac8001350a4cd8126933720da496b0e8b841f170a35d4856b898b5288dfe7c1771bcadbf32c582254eade40ba16f8b6d296625d2b33
   languageName: node
   linkType: hard
 
@@ -19801,6 +19845,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici@npm:^6.23.0":
+  version: 6.26.0
+  resolution: "undici@npm:6.26.0"
+  checksum: 1204e412802afe171cf4ca299bdf99141c8633d673c352a06b0445d803697237c07c18dcddaeb6c0e37befcf1460f1621ab4221cfe51e5e09e1dfc6a37d9a665
+  languageName: node
+  linkType: hard
+
 "unicode-canonical-property-names-ecmascript@npm:^2.0.0":
   version: 2.0.0
   resolution: "unicode-canonical-property-names-ecmascript@npm:2.0.0"
@@ -20265,15 +20316,6 @@ __metadata:
   bin:
     uuid: dist/bin/uuid
   checksum: 39931f6da74e307f51c0fb463dc2462807531dc80760a9bff1e35af4316131b4fc3203d16da60ae33f07fdca5b56f3f1dd662da0c99fea9aaeab2004780cc5f4
-  languageName: node
-  linkType: hard
-
-"uuid@npm:^3.3.2":
-  version: 3.4.0
-  resolution: "uuid@npm:3.4.0"
-  bin:
-    uuid: ./bin/uuid
-  checksum: 58de2feed61c59060b40f8203c0e4ed7fd6f99d42534a499f1741218a1dd0c129f4aa1de797bcf822c8ea5da7e4137aa3673431a96dae729047f7aca7b27866f
   languageName: node
   linkType: hard
 
