@@ -2426,15 +2426,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@foxglove/roslibjs@npm:0.0.3":
-  version: 0.0.3
-  resolution: "@foxglove/roslibjs@npm:0.0.3"
+"@foxglove/roslibjs@npm:0.0.4":
+  version: 0.0.4
+  resolution: "@foxglove/roslibjs@npm:0.0.4"
   dependencies:
     cbor-js: ^0.1.0
     eventemitter2: ^6.4.0
     object-assign: ^4.0.1
     webworkify: ^1.5.0
-  checksum: 01ade8dfe88fbcbc94d3ee1375b9c9f0a1bcc28d067eeaf3e7c49a5496315948fb43d6cf8987707edf2b20ab52889ddcc53d1ec411d58831d955d150f74c197c
+  checksum: 7fab3fa15f45f001ea1ddfb8dbef811696427ef1c37a29cd1db507988635e27ddcb9e7a8e93858bd916ccb366e609f97921c4e4791c0c80ddebf615fafcbf98f
   languageName: node
   linkType: hard
 
@@ -2524,7 +2524,7 @@ __metadata:
     "@foxglove/message-path": "workspace:*"
     "@foxglove/rosbag": 0.4.0
     "@foxglove/rosbag2-web": 4.1.1
-    "@foxglove/roslibjs": 0.0.3
+    "@foxglove/roslibjs": 0.0.4
     "@foxglove/rosmsg": 4.2.2
     "@foxglove/rosmsg-msgs-common": 3.1.0
     "@foxglove/rosmsg-serialization": 2.0.3
